@@ -112,6 +112,19 @@ static wchar_t _utf8_lut[] = {
 static wchar_t _utf8_lut[] = {
   L'å', L'ä', L'ö', L'Å', L'Ä', L'Ö',
 };
+#elif defined(TRANSLATIONS_UA)
+static wchar_t _utf8_lut[] = {
+  L'А', L'Б', L'В', L'Г', L'Ґ', L'Д', L'Е',
+  L'Є', L'Ж', L'З', L'И', L'І', L'Ї', L'Й',
+  L'К', L'Л', L'М', L'Н', L'О', L'П', L'Р',
+  L'С', L'Т', L'У', L'Ф', L'Х', L'Ц', L'Ч',
+  L'Ш', L'Щ', L'Ь', L'Ю', L'Я', L'а', L'б',
+  L'в', L'г', L'ґ', L'д', L'е', L'є', L'ж',
+  L'з', L'и', L'і', L'ї', L'й', L'к', L'л',
+  L'м', L'н', L'о', L'п', L'р', L'с', L'т',
+  L'у', L'ф', L'х', L'ц', L'ч', L'ш', L'щ',
+  L'ь', L'ю', L'я'
+};
 #else
   #define NO_UTF8_LUT
 #endif
